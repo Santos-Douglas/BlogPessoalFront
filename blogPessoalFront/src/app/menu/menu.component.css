@@ -1,0 +1,13 @@
+.fs-16{
+    font-size: 16px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.colorMenu {
+    background: #f7f6f5;
+    background: -webkit-linear-gradient(to right, #0e0401, #c5cdf0, #0e0401);
+    background: linear-gradient(to right, #0e0401, #c5cdf0, #0e0401);
+}
