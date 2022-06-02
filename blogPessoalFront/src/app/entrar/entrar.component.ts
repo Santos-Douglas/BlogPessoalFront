@@ -23,8 +23,8 @@ export class EntrarComponent implements OnInit {
   }
 
   entrar() {
-    this.auth.entrar(this.userLogin).subscribe((resp: UserLogin) => {
-      this.userLogin = resp
+    this.auth.entrar(this.userLogin).subscribe((resposta: UserLogin) => {
+      this.userLogin = resposta
 
       environment.token = this.userLogin.token
       environment.nome = this.userLogin.nome
